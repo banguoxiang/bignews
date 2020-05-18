@@ -8,7 +8,7 @@ $(function(){
             $('#form input[name=nickname]').val(res.data.nickname)
             $('#form input[name=email]').val(res.data.email)
             $('#form input[name=password]').val(res.data.password)
-            $('#form input[name=userPic]').attr('src',res.data.userPic)
+            $('#form .user_pic').attr('src',res.data.userPic)
         }
     })
 
